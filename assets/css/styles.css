@@ -1,0 +1,94 @@
+*{
+    font-family: "Xanh Mono", "Times New Roman";
+    border: 0px;
+    margin: 0px;
+    transition: all 0.5s ease-in-out;
+}
+.aboutxanh{
+    font-family: "Xanh Mono", "Times New Roman" !important;
+}
+nav{
+    font-family: "Tenor Sans", "Times New Roman";
+}
+.customBtn{
+    background-color: #fbe8a6 !important;
+    border-color: #fbe8a6 !important;
+    color: #9b7a07 !important;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 3px;
+}
+.customBtn:hover,customBtn:active,.customBtn:focus{
+    color: #483903 !important;
+    background-color: #f7d353 !important;
+    border-color: #f7d353 !important;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+.tenor,.tenor *{
+    font-family: "Tenor Sans" !important;
+}
+.navbar-collapse{
+    flex-grow: 0;
+}
+.homeHeader{
+    font-size: 73px;
+    font-weight: bolder;
+    text-align: center !important;
+}
+.bg-1{
+    background-image: url("../images/mbr-1.jpg");
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 2;
+}
+.homeOverlay{
+    background: rgb(210, 253, 255);
+    opacity: 0.7;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+}
+#navbar *{
+    z-index: 9999;
+}
+#home *{
+    z-index: 9999;
+}
+.downloadImg{
+    height: 350px;
+}
+#games{
+    background: rgb(250, 250, 250,0.7)
+}
+.card{
+    border: none;
+    border-radius: 15px;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 5px rgb(216, 216, 216,0.2);
+}
+.gamesTitle{
+    font-size: 19px;
+}
+.bigImg .img-fluid img{
+    object-fit: cover;
+    width: 100%;
+}
+iframe{
+    height: 60vh;
+}
+footer a{
+    color: #ff9966 !important;
+    text-decoration: none;
+}
+footer a:hover{
+    color: #483903 !important;
+}
+@media only screen and (max-width: 900px)
+{
+    .homeHeader{
+        font-size: 45px;
+        font-weight: bolder;
+        text-align: center !important;
+    }
+}
